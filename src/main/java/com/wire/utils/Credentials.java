@@ -9,6 +9,7 @@ public class Credentials {
 
     private String username;
     private String password;
+    private String deeplink;
 
     // Getters and setters
     public String getUsername() {
@@ -25,6 +26,14 @@ public class Credentials {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+    
+    public String getDeeplink() {
+        return deeplink;
+    }
+    
+    public void setDeeplink(String deeplink) {
+        this.deeplink = deeplink;
     }
 
     // Load credentials from a file
